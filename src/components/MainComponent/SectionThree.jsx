@@ -1,4 +1,4 @@
-import { delay, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import SectionThreeTopic from './SectionThreeTopic'
 import { useRef } from 'react'
 import { useInView } from 'framer-motion'
