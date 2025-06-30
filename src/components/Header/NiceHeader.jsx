@@ -9,7 +9,7 @@ import iconClose from "../../assets/headerIcons/icon-close.png"
 
 function NiceHeader() {
   return (
-    <div className="bg-[rgb(235,233,233)] flex justify-between items-center h-[70px] px-3 fixed top-0 w-[100vw] z-[100]
+    <div className="bg-[rgb(235,233,233)] justify-between items-center h-[70px] px-3 fixed top-0 w-[100vw] z-[100]
     overflow-hidden hidden">
         <img src={nicePageLogo} alt="Nicepage logo" className="cursor-pointer" />
         <div className="flex gap-2">
