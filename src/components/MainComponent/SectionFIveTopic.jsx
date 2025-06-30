@@ -32,7 +32,7 @@ function SectionFIveTopic({missionImg,name,description,style={}}) {
         initial={{scale:0}}
         animate={secFiveMissionInView ? {scale:1} : {}}
         transition={{duration:1,delay:.6}}
-        className={` float-${style.twittIconPosition}`}
+        className={`float-right md:float-${style.twittIconPosition}`}
       >
         <FaTwitter className='text-7xl text-[#4753F0] ' />
       </motion.div> 
