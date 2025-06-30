@@ -5,7 +5,7 @@ import SectionThree from "./SectionThree"
 import SectionFour from "./SectionFour"
 import SectionFive from "./SectionFive"
 import SectionSix from "./SectionSix"
-import SectionSeven from "./sectionSeven"
+import SectionSeven from "./SectionSeven"
 
 function Main() {
   const [topicInView,setTopicInView] = useState(false)
