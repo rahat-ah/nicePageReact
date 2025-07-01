@@ -6,12 +6,12 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   return (
-    <>
+    <div className='w-[100vw] overflow-x-hidden'>
       <NiceHeader />
       <DummyHeader />
       <Main />
       <Footer />
-    </>
+    </div>
   )
 }
 

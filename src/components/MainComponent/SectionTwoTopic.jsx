@@ -6,7 +6,7 @@ function SectionTwoTopic() {
     <motion.div 
     whileHover="hover"
     initial="initial"
-    className='bg-white p-8 rounded-3xl w-[340px] sm:w-[540px] md:w-[350px] lg:w-[298px] xl:w-[366px] m-auto text-black'>
+    className='bg-white p-8 rounded-3xl max-w-[340px] sm:w-[540px] md:w-[350px] lg:w-[298px] xl:w-[366px] m-auto text-black'>
         <img src={image} alt="partners images" className='rounded-2xl mb-4' />
         <motion.h3
         variants={{

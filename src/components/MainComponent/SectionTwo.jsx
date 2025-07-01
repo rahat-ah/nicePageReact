@@ -29,7 +29,7 @@ function SectionTwo({topicViewStatus}) {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus blanditiis non placeat vitae hic! Animi molestias placeat labore quidem autem.
         </motion.div>
         <motion.div 
-            className="grid gap-5 grid-cols-1 md:grid-cols-2 md:w-[720px] lg:grid-cols-3 lg:w-[940px] xl:w-[1140px] m-auto"
+            className="grid gap-5 grid-cols-1 justify-center md:grid-cols-2 md:w-[720px] lg:grid-cols-3 lg:w-[940px] xl:w-[1140px] m-auto"
             initial={{y:400,opacity:0}}
             animate={h1IsInView && {y:0,opacity:1} ||
                 topicViewStatus && {y:400,opacity:0}}
